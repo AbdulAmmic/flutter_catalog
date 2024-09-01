@@ -20,8 +20,8 @@ Ensure you have Flutter installed. If not, follow the Flutter installation guide
 
 Run the following command to install the necessary dependencies:
 
-```bash
-flutter pub get
+   ```bash
+   flutter pub get
 
 3. Run the App:
 
