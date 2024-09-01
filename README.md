@@ -22,6 +22,7 @@ Run the following command to install the necessary dependencies:
 
    ```bash
    flutter pub get
+   ```
 
 3. Run the App:
 
