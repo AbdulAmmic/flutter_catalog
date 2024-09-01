@@ -14,23 +14,23 @@ To set up and run the Product Catalog App locally, follow these steps:
    git clone https://github.com/your-username/product-catalog-app.git
    cd product-catalog-app
 
-Install Dependencies:
+2. Install Dependencies:
 
 Ensure you have Flutter installed. If not, follow the Flutter installation guide.
 
 Run the following command to install the necessary dependencies:
 
-bash
-Copy code
+```bash
 flutter pub get
-Run the App:
+
+3. Run the App:
 
 Connect a device or start an emulator and run:
 
-bash
-Copy code
+```bash
 flutter run
-Design Decisions, Optimizations, and Trade-offs
+
+# Design Decisions, Optimizations, and Trade-offs
 Local Storage: Hive was chosen for local storage due to its simplicity and speed. It provides a lightweight and efficient way to store data without the overhead of a more complex database system.
 
 State Management: The app uses setState for managing state in a simple and straightforward manner. For more complex applications, consider using state management solutions like Provider, Riverpod, or Bloc.
